@@ -1,6 +1,6 @@
 package structural.composite;
 
-public class CompsiteMain {
+public class CompositeMain {
     public static void main(String[] args) {
         Project project = new Project("main");
                 project.addToDo(new Todo("kup jaja"));
