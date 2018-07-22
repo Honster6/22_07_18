@@ -6,5 +6,8 @@ public class SingeltonMain {
         EagerSingleton instance = EagerSingleton.getInstance();
         EagerSingleton instance2 = EagerSingleton.getInstance();
         System.out.println(instance == instance2);
+
+        EnumSingleton instance1 = EnumSingleton.INSTANCE;
+//        String valiue = INSTANCE.getValue();
     }
 }
